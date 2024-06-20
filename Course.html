@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nice College</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-square-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="#course">COURSE</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Courses</h1>
+    </section>
+    <!-- COURSE -->
+    <section class="course">
+      <h1>COURSE We offer</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, eos
+        provident consequatur, ullam ipsam deserunt blanditiis voluptate
+        perferendis odio id voluptas ducimus architecto eius officia suscipit
+        soluta corporis error aliquid.
+      </p>
+      <div class="row">
+        <div class="course-col">
+          <h3>Intermediate</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui,
+            inventore. Excepturi itaque tempora perferendis, ipsam repellendus
+            aliquam quo provident dolorem aperiam optio? Dolorum earum iusto
+            architecto quasi nihil delectus dignissimos.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Degree</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui,
+            inventore. Excepturi itaque tempora perferendis, ipsam repellendus
+            aliquam quo provident dolorem aperiam optio? Dolorum earum iusto
+            architecto quasi nihil delectus dignissimos.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Post Graduation</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui,
+            inventore. Excepturi itaque tempora perferendis, ipsam repellendus
+            aliquam quo provident dolorem aperiam optio? Dolorum earum iusto
+            architecto quasi nihil delectus dignissimos.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- facilites -->
+    <section class="facilities">
+      <h1>Our Facilities</h1>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae saepe
+        eaque fuga, <br />consequuntur ipsum omnis libero aliquid magnam
+        mollitia earum repellat dolorum sequi totam sed aperiam! Voluptate illum
+        necessitatibus vitae.
+      </p>
+      <div class="row">
+        <div class="facilities-col">
+          <img src="library.png" />
+          <h3>World Class Library</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor
+            earum non quibusdam quasi accusamus, tempore fugiat nulla aperiam
+            molestias inventore est nam eligendi architecto pariatur voluptatem
+            nobis quae perspiciatis magnam.
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="basketball.png" />
+          <h3>Largest PlayGround</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor
+            earum non quibusdam quasi accusamus, tempore fugiat nulla aperiam
+            molestias inventore est nam eligendi architecto pariatur voluptatem
+            nobis quae perspiciatis magnam.
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="cafeteria.png" />
+          <h3>Testy and Healthy Food</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor
+            earum non quibusdam quasi accusamus, tempore fugiat nulla aperiam
+            molestias inventore est nam eligendi architecto pariatur voluptatem
+            nobis quae perspiciatis magnam.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <section class="footer">
+      <h4>About US</h4>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi,
+        voluptate repellendus!,<br />
+        Amet quia ratione vero dolorem alias temporibus commodi cupiditate hic,
+        repudiandae quo! Facilis sit ut delectus, pariatur quae temporibus.
+      </p>
+      <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+      <p>Made With<i class="fa-solid fa-heart"></i>by Easy Tutorial</p>
+    </section>
+    <!-- JavaScript for Toggle Menu-->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
